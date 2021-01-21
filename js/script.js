@@ -56,18 +56,19 @@ const iconsWithColors = icons.filter((element) => {
   }
 });
 
-/*
+
 iconsWithColors.forEach((element) => {
   const {name, prefix, type, family, color} = element;
 
   iconsContainer.innerHTML += `
     <div>
       <i class="${family} ${prefix}${name}" style="color: ${color}"></i>
-      ${name}
+      ${name.toUpperCase()}
     </div>
   `
 });
-*/
+
+
 
 
 
